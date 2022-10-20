@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:passage_flutter/theme/app_colors.dart';
 import 'package:passage_flutter/theme/components/outlined_button.dart';
 
+
+
 class WelcomePage extends StatefulWidget {
   const WelcomePage({Key? key}) : super(key: key);
 
@@ -89,12 +91,12 @@ class _WelcomePageState extends State<WelcomePage> {
             Column(children: [
               outlinedButton(
                 context,
-                text: 'Why a Filter',
-                path: '/teacherResources',
+                text: 'How to Use',
+                path: '/useVideo',
               ),
               const SizedBox(height: 20),
               outlinedButton(context,
-                  text: 'How to Use', path: '/teacherResources')
+                  text: 'Maintenance', path: '/teacherResources')
             ]),
             const SizedBox(
               width: 20,

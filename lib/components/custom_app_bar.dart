@@ -30,17 +30,17 @@ AppBar customAppBar(context, String title) {
                           color: AppTheme.colors.darkBlue, width: 4))))),
     ),
 
-    actions: <Widget>[
-      IconButton(
-        icon: const Icon(MdiIcons.account),
-        iconSize: 50,
-        color: AppTheme.colors.darkBlue,
-        onPressed: () {
-          Navigator.pushNamed(context, '/settingsPage');
-        },
-        tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-      ),
-    ],
+    // actions: <Widget>[
+    //   IconButton(
+    //     icon: const Icon(MdiIcons.account),
+    //     iconSize: 50,
+    //     color: AppTheme.colors.darkBlue,
+    //     onPressed: () {
+    //       Navigator.pushNamed(context, '/settingsPage');
+    //     },
+    //     tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+    //   ),
+    // ],
     centerTitle: true,
     // Here we take the value from the MyHomePage object that was created by
     // the App.build method, and use it to set our appbar title.

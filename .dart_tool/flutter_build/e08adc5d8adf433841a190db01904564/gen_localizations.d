@@ -1,0 +1,1 @@
+ /Users/abhi/life-app/.dart_tool/flutter_gen/gen_l10n/app_localizations_en.dart /Users/abhi/life-app/.dart_tool/flutter_gen/gen_l10n/app_localizations_es.dart /Users/abhi/life-app/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/abhi/life-app/l10n.yaml /Users/abhi/life-app/lib/l10n/app_en.arb /Users/abhi/life-app/lib/l10n/app_es.arb

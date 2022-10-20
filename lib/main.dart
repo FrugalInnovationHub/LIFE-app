@@ -3,6 +3,7 @@ import 'package:passage_flutter/main_pages/filter.dart';
 import 'package:passage_flutter/main_pages/home.dart';
 import 'package:passage_flutter/main_pages/learning_page.dart';
 import 'package:passage_flutter/main_pages/welcome.dart';
+import 'package:passage_flutter/video_pages/useVideo.dart';
 import 'package:passage_flutter/other_pages/awards_pages/lifetime_water.dart';
 import 'package:passage_flutter/other_pages/awards_pages/trophy_data_storage/trophy_progress_model.dart';
 import 'package:passage_flutter/other_pages/awards_pages/trophy_room.dart';
@@ -82,6 +83,8 @@ class _MyAppState extends State<MyApp> {
             '/finishPage': (context) => const FinishPage(),
             '/adminPage': (context) => const AdminPage(),
             '/settingsPage': (context) => SettingsPage(changeLocale: setLocale),
+            //Video Pages
+            '/useVideo': (context) => const UseVideo(),
           },
           localizationsDelegates: const [
             AppLocalizations.delegate,

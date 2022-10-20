@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/abhi/life-app/build/path_provider_android/intermediates/merged_res/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/abhi/.gradle/caches/transforms-3/73b52cde8e9ab34f3c10190518191a0a/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/abhi/life-app/build/path_provider_android/intermediates/merged_res/debug/layout-v21/notification_action.xml",
+        "source": "/Users/abhi/.gradle/caches/transforms-3/73b52cde8e9ab34f3c10190518191a0a/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/abhi/life-app/build/path_provider_android/intermediates/merged_res/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/abhi/.gradle/caches/transforms-3/73b52cde8e9ab34f3c10190518191a0a/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/abhi/life-app/build/path_provider_android/intermediates/merged_res/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/abhi/.gradle/caches/transforms-3/73b52cde8e9ab34f3c10190518191a0a/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.passage_flutter"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-68
+11-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-74
+12-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-71
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+13-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+14-->[:flutter_bluetooth_serial] /Users/abhi/life-app/build/flutter_bluetooth_serial/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+15
+16    <application
+17        android:name="android.app.Application"
+17-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:5:9-42
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /Users/abhi/.gradle/caches/transforms-3/d118b71b31ac2018b0687bad4db3eb97/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:6:9-43
+20        android:label="passage_flutter" >
+20-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:4:9-40
+21        <activity
+21-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:7:9-28:20
+22            android:name="com.example.passage_flutter.MainActivity"
+22-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:9:13-41
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:13:13-163
+24            android:exported="true"
+24-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:10:13-36
+25            android:hardwareAccelerated="true"
+25-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:14:13-47
+26            android:launchMode="singleTop"
+26-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:11:13-43
+27            android:screenOrientation="landscape"
+27-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:8:13-50
+28            android:theme="@style/LaunchTheme"
+28-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:12:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:15:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:20:13-23:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:21:15-70
+39                android:resource="@style/NormalTheme" />
+39-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:22:15-52
+40
+41            <intent-filter>
+41-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:24:13-27:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:25:17-68
+42-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:25:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:26:17-76
+44-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:26:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:31:9-33:33
+52            android:name="flutterEmbedding"
+52-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:32:13-44
+53            android:value="2" />
+53-->/Users/abhi/life-app/android/app/src/main/AndroidManifest.xml:33:13-30
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0-beta04] /Users/abhi/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0-beta04] /Users/abhi/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0-beta04] /Users/abhi/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0-beta04] /Users/abhi/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0-beta04] /Users/abhi/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0-beta04] /Users/abhi/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+61    </application>
+62
+63</manifest>
