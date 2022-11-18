@@ -197,72 +197,71 @@ class LearningPageState extends State<LearningPage> {
         child: Padding(
             padding: const EdgeInsets.only(left: 20, right: 20),
             child: SingleChildScrollView(
-                child: Expanded(
-                    child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
                   const SizedBox(
-                    height: 20,
+                height: 20,
                   ),
                   const Text('Learning',
-                      textAlign: TextAlign.left,
-                      style:
-                          TextStyle(fontWeight: FontWeight.w900, fontSize: 20)),
+                  textAlign: TextAlign.left,
+                  style:
+                      TextStyle(fontWeight: FontWeight.w900, fontSize: 20)),
                   const SizedBox(height: 4),
                   const Text('Choose a topic to learn'),
                   const SizedBox(height: 20),
                   Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: const AppColors().lightBlue,
-                        width: 3,
-                      ),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: DropdownButton<String>(
-                      value: _dropDownValue,
-                      icon: Icon(
-                        Icons.expand_more,
-                        color: const AppColors().buttonBlue,
-                      ),
-                      underline: const SizedBox(),
-                      elevation: 0,
-                      style: const TextStyle(
-                          fontWeight: FontWeight.w900, color: Colors.black),
-                      onChanged: (String? newValue) {
-                        setState(() {
-                          _dropDownValue = newValue!;
-                        });
-                      },
-                      items: <String>[
-                        'All',
-                        'Learning Adventures',
-                        'Lesson Modules'
-                      ].map<DropdownMenuItem<String>>((String value) {
-                        return DropdownMenuItem<String>(
-                          value: value,
-                          child: Text(value),
-                        );
-                      }).toList(),
-                    ),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: const AppColors().lightBlue,
+                    width: 3,
+                  ),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: DropdownButton<String>(
+                  value: _dropDownValue,
+                  icon: Icon(
+                    Icons.expand_more,
+                    color: const AppColors().buttonBlue,
+                  ),
+                  underline: const SizedBox(),
+                  elevation: 0,
+                  style: const TextStyle(
+                      fontWeight: FontWeight.w900, color: Colors.black),
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      _dropDownValue = newValue!;
+                    });
+                  },
+                  items: <String>[
+                    'All',
+                    'Learning Adventures',
+                    'Lesson Modules'
+                  ].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                ),
                   ),
                   const SizedBox(height: 20),
                   // move single child scroll view here if you want just the lessons to scroll
                   SizedBox(
-                      width: 910,
-                      child: Wrap(
-                        spacing: 20,
-                        runSpacing: 20,
-                        children: _filterList()
-                            .map((object) => object is AdventureObject
-                                ? _buildAdventure(object)
-                                : (object is PdfFile)
-                                    ? _buildLesson(object)
-                                    : const SizedBox())
-                            .toList(),
-                      ))
-                ])))));
+                  width: 910,
+                  child: Wrap(
+                    spacing: 20,
+                    runSpacing: 20,
+                    children: _filterList()
+                        .map((object) => object is AdventureObject
+                            ? _buildAdventure(object)
+                            : (object is PdfFile)
+                                ? _buildLesson(object)
+                                : const SizedBox())
+                        .toList(),
+                  ))
+                ]))));
   }
 }
 
